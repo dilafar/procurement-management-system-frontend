@@ -20,7 +20,7 @@ const AddDeliveryAdvice = () => {
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
                   <h3 className="text-3xl font-semibold">
-                    Update Order Details
+                    Add Delivery Advice
                   </h3>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
@@ -39,7 +39,7 @@ const AddDeliveryAdvice = () => {
                         <label
                           for="guest"
                           class="mb-3 block text-base font-medium text-[#07074D]">
-                          Morning
+                          Order ID
                         </label>
                         <select
                           id="countries"
@@ -58,7 +58,7 @@ const AddDeliveryAdvice = () => {
                         <label
                           for="message"
                           class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">
-                          Your message
+                          Delivery Items
                         </label>
                         <textarea
                           id="message"
@@ -68,6 +68,11 @@ const AddDeliveryAdvice = () => {
                       </div>
 
                       <div class="relative mb-2">
+                        <label
+                          for="hobby"
+                          class="mb-3 block text-base font-medium text-[#07074D]">
+                          Delivered Date
+                        </label>
                         <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                           <svg
                             aria-hidden="true"
@@ -95,7 +100,7 @@ const AddDeliveryAdvice = () => {
                           <label
                             for="hobby"
                             class="mb-3 block text-base font-medium text-[#07074D]">
-                            Medicine Name
+                            Quantity
                           </label>
                           <input
                             type="number"

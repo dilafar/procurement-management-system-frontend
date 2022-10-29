@@ -48,13 +48,13 @@ const UpdateOrderRequest = () => {
                         <label
                           for="guest"
                           class="mb-3 block text-base font-medium text-[#07074D]">
-                          Morning
+                          Order Type
                         </label>
                         <select
                           id="countries"
                           class=" border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
                           required>
-                          <option value="Select">Select </option>
+                          <option value="Select">Select Order Type </option>
                           <option value="1 table spoon">1 table spoon</option>
                           <option value="2 table spoon">2 table spoon</option>
                           <option value="1 tablet">1 tablet</option>
@@ -68,10 +68,10 @@ const UpdateOrderRequest = () => {
                           <label
                             for="hobby"
                             class="mb-3 block text-base font-medium text-[#07074D]">
-                            Medicine Name
+                            Quantity
                           </label>
                           <input
-                            type="text"
+                            type="number"
                             name="hobby"
                             id="hobby"
                             class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
@@ -84,7 +84,7 @@ const UpdateOrderRequest = () => {
                         <label
                           for="message"
                           class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">
-                          Your message
+                          Description
                         </label>
                         <textarea
                           id="message"
@@ -97,13 +97,13 @@ const UpdateOrderRequest = () => {
                         <label
                           for="guest"
                           class="mb-3 block text-base font-medium text-[#07074D]">
-                          Morning
+                          Supplier
                         </label>
                         <select
                           id="countries"
                           class=" border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
                           required>
-                          <option value="Select">Select </option>
+                          <option value="Select">Select Supplier</option>
                           <option value="1 table spoon">1 table spoon</option>
                           <option value="2 table spoon">2 table spoon</option>
                           <option value="1 tablet">1 tablet</option>
@@ -113,6 +113,11 @@ const UpdateOrderRequest = () => {
                       </div>
 
                       <div class="relative mb-2">
+                        <label
+                          for="guest"
+                          class="mb-3 block text-base font-medium text-[#07074D]">
+                          Good Required Date
+                        </label>
                         <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                           <svg
                             aria-hidden="true"

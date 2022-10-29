@@ -50,7 +50,7 @@ const PurchaseOrder = () => {
       m-0
       focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                       aria-label="Default select example">
-                      <option selected>Open this select menu</option>
+                      <option selected>Select Order Type</option>
                       <option value="1">One</option>
                       <option value="2">Two</option>
                       <option value="3">Three</option>
@@ -63,7 +63,7 @@ const PurchaseOrder = () => {
                     <label
                       for="exampleFormControlInput1"
                       class="form-label inline-block mb-2 text-gray-700">
-                      Example label
+                      Quantity
                     </label>
                     <input
                       type="number"
@@ -94,7 +94,7 @@ const PurchaseOrder = () => {
                   <label
                     for="message"
                     class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">
-                    Your message
+                    Description
                   </label>
                   <textarea
                     id="message"
@@ -122,7 +122,7 @@ const PurchaseOrder = () => {
       m-0
       focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                       aria-label="Default select example">
-                      <option selected>Open this select menu</option>
+                      <option selected>Select Supplier</option>
                       <option value="1">One</option>
                       <option value="2">Two</option>
                       <option value="3">Three</option>
@@ -131,6 +131,12 @@ const PurchaseOrder = () => {
                 </div>
 
                 <div class="relative">
+                  <label
+                    for="message"
+                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">
+                    Good Required Date
+                    <div className="0"></div>
+                  </label>
                   <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                     <svg
                       aria-hidden="true"

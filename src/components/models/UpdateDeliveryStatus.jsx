@@ -38,7 +38,7 @@ const UpdateDeliveryStatus = () => {
                         <label
                           for="guest"
                           class="mb-3 block text-base font-medium text-[#07074D]">
-                          Morning
+                          Status
                         </label>
                         <select
                           id="countries"
