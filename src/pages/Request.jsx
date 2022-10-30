@@ -24,7 +24,7 @@ const Request = () => {
             style={{ marginRight: "40px", display: "grid" }}>
             <div
               class="rounded-lg shadow-lg bg-white max-w-m"
-              style={{ height: "170px", width: "800px", marginBottom: "50px" }}>
+              style={{ height: "200px", width: "800px", marginBottom: "50px" }}>
               <br />
 
               <div style={{ display: "flex" }}>
@@ -38,7 +38,7 @@ const Request = () => {
                 <div
                   style={{
                     borderLeft: "6px solid black",
-                    height: "140px",
+                    height: "170px",
                     marginLeft: "50px",
                   }}></div>
 
@@ -63,7 +63,7 @@ const Request = () => {
 
             <div
               class="rounded-lg shadow-lg bg-white max-w-m"
-              style={{ height: "170px", width: "800px", marginBottom: "50px" }}>
+              style={{ height: "200px", width: "800px", marginBottom: "50px" }}>
               <br />
 
               <div style={{ display: "flex" }}>
@@ -77,7 +77,7 @@ const Request = () => {
                 <div
                   style={{
                     borderLeft: "6px solid black",
-                    height: "140px",
+                    height: "170px",
                     marginLeft: "50px",
                   }}></div>
 
@@ -101,7 +101,7 @@ const Request = () => {
 
             <div
               class="rounded-lg shadow-lg bg-white max-w-m"
-              style={{ height: "170px", width: "800px", marginBottom: "50px" }}>
+              style={{ height: "200px", width: "800px", marginBottom: "50px" }}>
               <br />
 
               <div style={{ display: "flex" }}>
@@ -115,7 +115,7 @@ const Request = () => {
                 <div
                   style={{
                     borderLeft: "6px solid black",
-                    height: "140px",
+                    height: "170px",
                     marginLeft: "50px",
                   }}></div>
 

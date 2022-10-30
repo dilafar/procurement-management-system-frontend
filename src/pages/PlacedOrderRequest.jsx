@@ -45,7 +45,7 @@ const PlacedOrderRequest = () => {
             style={{ marginRight: "40px", display: "grid" }}>
             <div
               class="rounded-lg shadow-lg bg-white max-w-m"
-              style={{ height: "170px", width: "800px", marginBottom: "50px" }}>
+              style={{ height: "200px", width: "800px", marginBottom: "50px" }}>
               <br />
 
               <div style={{ display: "flex" }}>
@@ -59,7 +59,7 @@ const PlacedOrderRequest = () => {
                 <div
                   style={{
                     borderLeft: "6px solid black",
-                    height: "140px",
+                    height: "170px",
                     marginLeft: "50px",
                   }}></div>
 
@@ -101,7 +101,7 @@ const PlacedOrderRequest = () => {
 
             <div
               class="rounded-lg shadow-lg bg-white max-w-m"
-              style={{ height: "170px", width: "800px", marginBottom: "50px" }}>
+              style={{ height: "200px", width: "800px", marginBottom: "50px" }}>
               <br />
 
               <div style={{ display: "flex" }}>
@@ -115,7 +115,7 @@ const PlacedOrderRequest = () => {
                 <div
                   style={{
                     borderLeft: "6px solid black",
-                    height: "140px",
+                    height: "170px",
                     marginLeft: "50px",
                   }}></div>
 
@@ -156,7 +156,7 @@ const PlacedOrderRequest = () => {
 
             <div
               class="rounded-lg shadow-lg bg-white max-w-m"
-              style={{ height: "170px", width: "800px", marginBottom: "50px" }}>
+              style={{ height: "200px", width: "800px", marginBottom: "50px" }}>
               <br />
 
               <div style={{ display: "flex" }}>
@@ -170,7 +170,7 @@ const PlacedOrderRequest = () => {
                 <div
                   style={{
                     borderLeft: "6px solid black",
-                    height: "140px",
+                    height: "170px",
                     marginLeft: "50px",
                   }}></div>
 
