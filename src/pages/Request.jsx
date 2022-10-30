@@ -8,11 +8,11 @@ import UpdateStatusModel from "../components/models/UpdateStatus";
 const Request = () => {
   return (
     <div>
-      <div class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-white dark:bg-gray-700 text-black dark:text-white">
+      <div className="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-white dark:bg-gray-700 text-black dark:text-white">
         <Header />
         <Sidebar />
         <div
-          class="h-full   pt-14 pb-14 md:ml-64"
+          className="h-full   pt-14 pb-14 md:ml-64"
           style={{
             backgroundImage: `url(${Cover})`,
             backgroundRepeat: "no-repeat",
@@ -20,10 +20,10 @@ const Request = () => {
             height: "1200px",
           }}>
           <div
-            class="flex justify-center"
+            className="flex justify-center"
             style={{ marginRight: "40px", display: "grid" }}>
             <div
-              class="rounded-lg shadow-lg bg-white max-w-m"
+              className="rounded-lg shadow-lg bg-white max-w-m"
               style={{ height: "200px", width: "800px", marginBottom: "50px" }}>
               <br />
 
@@ -62,7 +62,7 @@ const Request = () => {
             <br />
 
             <div
-              class="rounded-lg shadow-lg bg-white max-w-m"
+              className="rounded-lg shadow-lg bg-white max-w-m"
               style={{ height: "200px", width: "800px", marginBottom: "50px" }}>
               <br />
 
@@ -100,7 +100,7 @@ const Request = () => {
             </div>
 
             <div
-              class="rounded-lg shadow-lg bg-white max-w-m"
+              className="rounded-lg shadow-lg bg-white max-w-m"
               style={{ height: "200px", width: "800px", marginBottom: "50px" }}>
               <br />
 

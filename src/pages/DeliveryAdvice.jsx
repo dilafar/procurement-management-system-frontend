@@ -29,11 +29,11 @@ const DeliveryAdvice = () => {
   };
   return (
     <div>
-      <div class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-white dark:bg-gray-700 text-black dark:text-white">
+      <div className="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-white dark:bg-gray-700 text-black dark:text-white">
         <Header />
         <Sidebar />
         <div
-          class="h-full   pt-14 pb-14 md:ml-64"
+          className="h-full   pt-14 pb-14 md:ml-64"
           style={{
             backgroundImage: `url(${Cover})`,
             backgroundRepeat: "no-repeat",
@@ -41,62 +41,66 @@ const DeliveryAdvice = () => {
             height: "1200px",
           }}>
           <div
-            class="flex justify-center"
+            className="flex justify-center"
             style={{ marginRight: "40px", display: "grid" }}>
             <AddDeliveryAdvice />
-            <div class="overflow-x-auto ml-10">
-              <div class="w-full lg:w-5/6">
-                <div class="bg-white shadow-md rounded my-6">
-                  <table class="min-w-max w-full table-auto">
+            <div className="overflow-x-auto ml-10">
+              <div className="w-full lg:w-5/6">
+                <div className="bg-white shadow-md rounded my-6">
+                  <table className="min-w-max w-full table-auto">
                     <thead>
-                      <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
-                        <th class="py-3 px-6 text-left">Delivery ID</th>
-                        <th class="py-3 px-6 text-left">Order ID</th>
-                        <th class="py-3 px-6 text-center">Delivery Items</th>
-                        <th class="py-3 px-6 text-center">Delivered Date</th>
-                        <th class="py-3 px-6 text-center">Quantity</th>
-                        <th class="py-3 px-6 text-center">Actions</th>
+                      <tr className="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+                        <th className="py-3 px-6 text-left">Delivery ID</th>
+                        <th className="py-3 px-6 text-left">Order ID</th>
+                        <th className="py-3 px-6 text-center">
+                          Delivery Items
+                        </th>
+                        <th className="py-3 px-6 text-center">
+                          Delivered Date
+                        </th>
+                        <th className="py-3 px-6 text-center">Quantity</th>
+                        <th className="py-3 px-6 text-center">Actions</th>
                       </tr>
                     </thead>
-                    <tbody class="text-gray-600 text-sm font-light">
-                      <tr class="border-b border-gray-200 hover:bg-gray-100">
-                        <td class="py-3 px-6 text-left whitespace-nowrap">
-                          <div class="flex items-center">
-                            <div class="mr-2"></div>
-                            <span class="font-medium">test</span>
+                    <tbody className="text-gray-600 text-sm font-light">
+                      <tr className="border-b border-gray-200 hover:bg-gray-100">
+                        <td className="py-3 px-6 text-left whitespace-nowrap">
+                          <div className="flex items-center">
+                            <div className="mr-2"></div>
+                            <span className="font-medium">test</span>
                           </div>
                         </td>
-                        <td class="py-3 px-6 text-left whitespace-nowrap">
-                          <div class="flex items-center">
-                            <div class="mr-2"></div>
-                            <span class="font-medium">test</span>
+                        <td className="py-3 px-6 text-left whitespace-nowrap">
+                          <div className="flex items-center">
+                            <div className="mr-2"></div>
+                            <span className="font-medium">test</span>
                           </div>
                         </td>
 
-                        <td class="py-3 px-6 text-left whitespace-nowrap">
-                          <div class="flex items-center">
-                            <div class="mr-2"></div>
-                            <span class="font-medium">test</span>
+                        <td className="py-3 px-6 text-left whitespace-nowrap">
+                          <div className="flex items-center">
+                            <div className="mr-2"></div>
+                            <span className="font-medium">test</span>
                           </div>
                         </td>
-                        <td class="py-3 px-6 text-left whitespace-nowrap">
-                          <div class="flex items-center">
-                            <div class="mr-2"></div>
-                            <span class="font-medium">test</span>
+                        <td className="py-3 px-6 text-left whitespace-nowrap">
+                          <div className="flex items-center">
+                            <div className="mr-2"></div>
+                            <span className="font-medium">test</span>
                           </div>
                         </td>
-                        <td class="py-3 px-6 text-left whitespace-nowrap">
-                          <div class="flex items-center">
-                            <div class="mr-2"></div>
-                            <span class="font-medium">test</span>
+                        <td className="py-3 px-6 text-left whitespace-nowrap">
+                          <div className="flex items-center">
+                            <div className="mr-2"></div>
+                            <span className="font-medium">test</span>
                           </div>
                         </td>
-                        <td class="py-3 px-6 ">
-                          <div class="flex item-center justify-center">
+                        <td className="py-3 px-6 ">
+                          <div className="flex item-center justify-center">
                             <UpdateDeliveryAdvice />
 
                             <div
-                              class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110"
+                              className="w-4 mr-2 transform hover:text-purple-500 hover:scale-110"
                               onClick={deleteOrder}>
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"

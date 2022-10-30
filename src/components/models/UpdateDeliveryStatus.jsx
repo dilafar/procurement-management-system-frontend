@@ -31,18 +31,18 @@ const UpdateDeliveryStatus = () => {
                 </div>
                 {/*body*/}
 
-                <div class="flex items-center justify-center p-12">
-                  <div class="w-full px-3 " style={{ width: "500px" }}>
+                <div className="flex items-center justify-center p-12">
+                  <div className="w-full px-3 " style={{ width: "500px" }}>
                     <form>
-                      <div class="mb-3">
+                      <div className="mb-3">
                         <label
                           for="guest"
-                          class="mb-3 block text-base font-medium text-[#07074D]">
+                          className="mb-3 block text-base font-medium text-[#07074D]">
                           Status
                         </label>
                         <select
                           id="countries"
-                          class=" border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                          className=" border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500"
                           required>
                           <option value="Select">Select </option>
                           <option value="1 table spoon">1 table spoon</option>
@@ -55,13 +55,13 @@ const UpdateDeliveryStatus = () => {
 
                       <div className="flex">
                         <button
-                          class="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none"
+                          className="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none"
                           type="submit">
                           Submit
                         </button>
 
                         <button
-                          class="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none ml-2"
+                          className="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none ml-2"
                           onClick={() => setShowModal(false)}>
                           Close
                         </button>
